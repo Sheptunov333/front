@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+html{
+	max-width: 100%;
+}
+body{
+	font-family: 'Open Sans';
+	font-size: 15px;
+}
+header{
+width: 100%;
+height: 670px;
+background-image: url(../photo/fon.jpg);
+ background-repeat: no-repeat;
+}
+nav{
+width: 100%;
+height: 65px;
+font-family: 'Montserrat', sans-serif;
+}
+.logo{
+	float:left;
+	margin-left: 5.5%;
+	margin-top: 1%;
+}
+.nav_bottom{
+	margin-top: 1.5%;
+	margin-right: 97px;
+	float: right;
+}
+ul{
+	list-style: none;
+}
+.nav_ul li{
+	display: inline;
+	padding-right: 31px;
+
+}
+.nav_ul li a{
+	color:black;
+	font-size: 105%;
+}
+.main_color{
+	color: #58D4D0;
+}
+.nav_ul li a:hover{
+	color: #58D4D0;
+}
+
+.head_info{
+	float:right;
+	margin-top: 180px;
+	margin-right: 200px;
+	height: 238px;
+	width:500px;
+}
+.head_info h1{
+	font-family: 'Dosis', sans-serif;
+}
+.head_info p{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 40px;
+}
+.buttom_head{
+	margin-top: 45px;
+}
+.buttom_head a{
+	background-color: #10C9C3;
+	color:white;
+	padding:23px 46px;
+}
+.buttom_head a:hover{
+	background-color: #10B3AE;
+}
+.content_one{
+	text-align: center;
+	margin-left: 33.3%;
+	width: 580px;
+	margin-top: 100px;
+}
+h2{
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+.content_one p{
+	font-family: 'Nunito Sans', sans-serif;
+	margin-top: 40px;
+}
+.content_one img{
+	margin-top: 40px;
+}
+
+.content_two{
+	margin-top: 40px;
+	padding-bottom: 60px;
+	width: 100%;
+	background-image: url(../photo/fon2.jpg);
+}
+.content_two h2{
+	padding-bottom: 10px;
+}
+.content_two ul{
+	padding-top: 160px;
+	margin-left: 100px;
+	padding-bottom: 160px;
+}
+.content_two ul li{
+	padding-top: 20px;
+}
+.content_tree{
+	width: 100%;
+	height: 260px;
+	background-color: #10C9C3;
+}
+.block_info{
+	padding-top: 100px;
+	margin-left: 20px;
+	color: white;
+	width: 100%;
+	height: 50px;
+}
+.block_info li{
+	display: inline;
+	float: left;
+	width: 300px;
+	margin-left:130px;
+}
+
+.block_info li img{
+	width: 80px;
+	height: 80px;
+	padding-right: 10px;
+	float: left;
+}
+.content_tree h3{
+padding-top: 15px;
+}
+.content_tree p{
+padding-top: 5px;
+}
