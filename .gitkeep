@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+			<div class="content-nav">
+				<div class="content-logo"></div>
+				<nav>
+				<a href="#">Новости</a>
+				<a href="#">События</a>
+				<a href="#">Лайфхаки</a>
+				<a href="#">Технологии</a>
+				<a href="#">Оняме</a>
+				</nav>
+			</div>
+			<div class="content-setting">
+				<a href="#">Настройки</a>
+				<a href="#">Выйти</a>
+			</div>
+	</header>
+</body>
+</html>
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Pacifico', cursive;
+	
+}
+header{
+	width: 100%;
+	height: 55px;
+	background-color: #36399B;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	font-size: 25px;
+	flex-wrap: nowrap;
+	align-items: center;
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	transition: 0.5s;
+}
+a:hover{
+	background-color: white;
+	border-radius: 10px;
+	color:green;
+}
+.content-setting a:hover:nth-child(2){
+	color: red;
+}
+.content-logo{
+	width: 50px;
+	background-image: url(1.png);
+	background-size: cover;
+}
+.content-nav{
+	display: flex;	
+}
+nav{
+	display: flex;
+}
+.content-setting{
+	display: flex;
+}
